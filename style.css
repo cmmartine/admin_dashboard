@@ -19,7 +19,7 @@
   padding-top: 20px;
 }
 
-.searchbar {
+.search-container {
   display: flex;
 }
 
@@ -28,7 +28,7 @@
   padding-left: 20px;
 }
 
-.search {
+.search-bar {
   height: 2em;
   width: 45em;
   background-color: #e2e8f0;
