@@ -195,11 +195,41 @@
   color: rgb(85, 85, 85);
 }
 
-.right-bar a {
+.announcements-card a {
   color: blue;
   text-decoration: none;
 }
 
+.announcements-card a:active {
+  background-color: rgb(0, 217, 255);
+}
+
 .line {
   margin-bottom: 5px;
+}
+
+.trending-card {
+  display: flex;
+  flex-direction: column;
+  width: 15em;
+  height: 15em;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.356);
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.trending-card a {
+  color:black;
+  text-decoration: none;
+}
+
+.trending-card a:active {
+  background-color: rgb(0, 217, 255);
+}
+
+.trending-card p {
+  margin-bottom: 40px;
 }
